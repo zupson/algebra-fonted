@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data page</title>
+    <link rel="stylesheet" href="../css/o_nama.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/data.css">
+</head>
+
+<header>
+    <nav class="nav-bar">
+        <img src="../img/logo-algebra.png" class="logo">
+        <ul class="nav-links">
+            <li><button id="logout" class="btn-navbar"><a href=""><i class="fa-solid fa-circle-user"></i> Odjavi
+                        se</a></button></li>
+        </ul>
+    </nav>
+</header>
+
+<body>  
+    <h1>Data page</h1>
+
+    <div class="search-wrpper">
+        <div class="wrapper">
+            <div class="search-input">
+                <input type="text" placeholder="Type to search.." id="search-bar">
+                <div class="autocom-box"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table-container">
+    <table class="table2">
+        <thead>
+            <tr>
+                <th>Kolegij</th>
+                <th>ECTS</th>
+                <th>Predavanja</th>
+                <th>Vježbe</th>
+                <th>Sati</th>
+                <th>Semestar</th>
+                <th>Tip</th>
+                <th>Akcija</th>
+            </tr>
+        </thead>
+        <tbody id="added-data-list">
+
+        </tbody>
+    </table>
+
+
+    </div>
+
+
+    <script src="../js/data.js"></script>
+</body>
+
+</html>

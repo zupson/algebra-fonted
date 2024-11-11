@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nagrađujemo-izvrsnost-img{
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/novost2.jpg");
+    background-size: cover;
+    background-position:top;  
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.page-title{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+
+    padding-top: 50px; 
+}
+
+p{
+    
+    font-size: 20px;
+    padding-top: 25px;
+    
+    margin-right: 25%;
+    margin-left: 25%;
+}
+

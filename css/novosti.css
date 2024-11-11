@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 75px;
+    text-align: center;
+    border-bottom-width: medium;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-style: solid;
+    border-color: rgb(225, 183, 12);   
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin: right 5%;
+    margin-left:5%;
+    flex-wrap: wrap;
+    font-size: 10px;
+    color: white;
+}
+
+.circle  {
+    
+    list-style-type: none;
+    
+    background-position:top;
+    text-wrap:wrap;
+    text-align: center;
+    word-spacing: 5px;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 175px;
+    border: 15px solid rgb(203, 202, 202);
+    padding-top: 80px;
+    padding-inline-start:20px;
+    padding-inline-end:20px;
+
+}
+
+.circle a{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.circle-date{
+    color: rgb(255, 183, 0);
+}
+.circle1 .circle2 .circle3{
+    font-display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: white;
+}
+
+.circle:nth-child(1){
+    background-image: url("../img/novost1.jpg");
+}
+
+.circle:nth-child(2){
+    background-image: url("../img/novost2.jpg");
+}
+
+.circle:nth-child(3){
+    background-image: url("../img/novost3.jpg");
+    
+}
+
+

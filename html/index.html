@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/o_nama.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/kontakt.css">
+
+<!-- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+</head>
+
+<header>
+    <nav class=" nav-bar">
+      <img src="../img/logo-algebra.png" class="logo">
+      <ul class="nav-links">
+        <li> <button class="btn-navbar"> <a href="prijava.html"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                height="20" fill="rgb(250, 5, 148)" class="bi bi-box-arrow-in-right" viewBox="1 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 
+                  0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                <path fill-rule="evenodd"
+                  d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+              </svg>Prijavi se
+            </a></button>
+        </li>
+  
+        <li> <button class="btn-navbar"> <a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                height="20" fill="rgb(250, 5, 148)" class="bi bi-house" viewBox="1 0 16 16">
+                <path
+                  d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0
+                   3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 
+                   0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+              </svg>Početna</a></button></li>
+  
+        <li> <button class="btn-navbar"> <a href="o_nama.html"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                height="20" fill="rgb(250, 5, 148)" class="bi bi-chat-left" viewBox="1 0 16 16">
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 
+                  0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+              </svg>O nama</a></button></li>
+  
+        <li> <button class="btn-navbar"> <a href="novosti.html"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                height="20" fill="rgb(250, 5, 148)" class="bi bi-info-circle" viewBox="1 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 
+                  1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+              </svg>Novosti</a></button></li>
+  
+        <li> <button class="btn-navbar"> <a href="kontakt.html"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                height="20" fill="rgb(250, 5, 148)" class="bi bi-telephone" viewBox="1 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 
+                  4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 
+                  0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 
+                  0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 
+                  0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 
+                  0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+              </svg> Kontakt
+            </a></button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <h1 class="contact-title"><i class="bi bi-envelope"></i>Kontaktirajete nas:</h1>
+
+            <button data-close-button class="close-button">X</button>
+        </div>
+
+        <div class="modal-body">
+            <form action="https://www.fulek.com/mvc/supit/project-contact-form" method="post">
+                <div>
+                    <!-- <label for="name">Ime i prezime:</label> -->
+                    <input type="text" placeholder="ime i prezime" id="fullname" name="fullname"><br><br>
+                </div>
+
+                <div>
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="email" placeholder="email" name="email"><br><br>
+                </div>
+
+
+
+                <div>
+                    <!-- <label for="message">Poruka:</label><br> -->
+                    <textarea id="message" placeholder="Unesite poruku" name="message" rows="4" cols="50"></textarea><br><br>
+                </div>
+
+
+                <div>
+                    <!-- <label for="importance">Važnost:</label> -->
+                    <select id="importance" placeholder="vaznost" name="importance">
+                        <option value="high-importance">Visoka</option>
+                        <option value="midle-importance">Srednja</option>
+                        <option value="low-importance">Niska</option>
+                    </select>
+                </div>
+
+                <div class="checkbox-container">
+                    <label for="receive-newsletter">Želim primati obavijesti:</label>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                </div>
+
+
+                
+                <button id="btn-predaj" type="submit"><span id="btn-predaj-text">Predaj</span> </button>
+        </div>
+
+    </div>
+
+    <div id="overlay"></div>
+
+
+
+    <p> Budi izvrstan u onome što voliš. <br />
+        <span id="zaiskri"></span><span id="cursor">|</span>
+    </p>
+
+ 
+        <video src="../video/typingOnlaptop.mp4" muted loop autoplay></video>
+
+  
+
+    <!-- width="100%" height="100%" -->
+
+    <!-- <script src="index.js"></script> -->
+    <script src="../js/kontakt.js"></script>
+    <script src="../js/index.js"></script>
+
+
+</body>
+
+</html>

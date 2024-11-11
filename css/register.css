@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+#register-container{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+
+#register-form{
+    border: solid 3px rgb(185, 181, 181);
+    border-radius: 5px;
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    /* margin-bottom: 5%; */
+    padding: 50px;
+}
+
+#register-form #form-group{
+    font-size: 20px;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+
+input{
+    font-size: 20px;
+    border-color: rgb(202, 202, 202);
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
+label{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.error{
+    display: none;
+    color: red;
+}
+
+.show-error{
+    display: inline;
+}
+
+#btn-register{
+
+    background-color: rgb(59, 59, 246);
+    border-color: darkblue;
+    width: 70%;
+    color: whitesmoke;
+}
+
+#btn-register-conteiner{
+    display:flex;
+    justify-self: center;
+}
+
+#btn-text{
+    font-size: 20px;
+}
+
+#back{
+    
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+}

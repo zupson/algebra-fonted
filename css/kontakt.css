@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-title{
+    font-size: 25px;
+    color: black;
+    border: none;
+    /* ovaj none ponistava stajl za h1 iz onama.css jer se html referencir ai na njega! */
+    align-items: center;
+    margin: 0;
+}
+
+button{
+    color: rgb(250, 5, 148);
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out ;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 550px;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.modal-header{
+    padding: 15px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid grey;
+}
+
+.modal-title{
+    font-weight: bold;
+}
+
+.modal-header .close-button{
+    cursor:pointer ;
+    /*  ovo napravi i u nav baru i svugdje gdje se očekuje klik korinika> */
+    border: none;
+    outline: none;
+}
+
+.close-button{
+   
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px;
+    font-size: 15px;
+
+}
+#btn-zatvori-text{
+    color: white;
+}
+
+.modal-body{
+    padding:10px 15px;
+
+}
+
+::placeholder{
+   padding-left: 10px; 
+}
+
+input{
+    border: solid 1px grey;
+    border-bottom-left-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#message{
+    border: solid 1px gray;
+    border-radius: 10px;
+    max-width: 350px;
+    max-height: 100px;
+}
+
+#importance{
+    border: solid 1px gray;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 10px;
+}
+
+#chackbox{
+    size: 10px;
+}
+
+.checkbox-container{
+    align-items:normal;
+    margin-bottom: 20px;
+}
+
+form{
+
+    display: block;
+    
+
+    padding-bottom: 20px;
+    
+}
+#btn-predaj{
+    background-color: green;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px;
+    font-size: 15px;
+    
+
+}
+#btn-predaj-text{
+    color: white;
+}
+
+
+
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,.5);
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}

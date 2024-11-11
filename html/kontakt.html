@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/kontakt.css">
+  
+  
+<body>
+<!-- <button data-modal-target="#modal"> Open popup kontakt</button>  -->
+
+<div class="modal" id="modal">
+  <div class="modal-header">
+    <h1 class="title">>Kontaktirajete nas</h1>
+
+    <button data-close-button class="close-button">&times;</button>
+    <!--  ovdje koriatimo times jer je to igrađeno u html za zatvaranje stranice i ima fiksnu veličinu koja ne ovisi o veličini teksta -->
+  </div>
+
+  <div class="modal-body">
+    <form action="https://www.fulek.com/mvc/supit/project-contact-form" method="post">
+      <label for="name">Ime i prezime:</label>
+      <input type="text" id="fullname" name="fullname"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="importance">Važnost:</label>
+      <select id="importance" name="importance">
+        <option value="high-importance">Visoka</option>
+        <option value="midle-importance">Srednja</option>
+        <option value="low-importance">Niska</option>
+      </select>
+
+      <label for="message">Poruka:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+
+      <label for="receive-newsletter">Želim primati obavijesti:</label>
+      <input type="checkbox" id="checkbox" name="checkbox">
+
+
+      <input type="submit" value="Pošalji">
+  </div>
+
+</div>
+
+<div  id="overlay"></div>
+
+<script src="../js/kontakt.js"></script>
+</body>
+
+</html>

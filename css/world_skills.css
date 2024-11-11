@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carouselExampleCaptions {
+    margin-top: 0px;
+}
+
+
+
+.page-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+}
+
+p {
+    padding-top: 20px;
+    border-bottom: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

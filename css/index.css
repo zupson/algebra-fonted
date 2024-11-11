@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#zaiskri{
+    color: rgb(255, 0, 21);  
+}
+
+#cursor{
+    font-weight: bold;
+    color: whitesmoke;
+    animation: blink 1s linear infinite;
+}
+
+video{
+    height: inherit;
+    width: 100%;
+}
+
+p{
+    color: whitesmoke;
+    padding: 20% 20%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+}
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#search-bar{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 3px;
+    border: solid 1px whitesmoke;
+    padding: 5px 10px;
+    font-size: 12px;    
+    cursor: pointer;
+    margin: 25px 10% 25px ; 
+   
+}
+
+
+.search-wrpper::after{
+    position: absolute;
+    top: 2px;
+    right: 15px;
+}
+ 
+/* .table2{
+    padding-left: 50px;
+    border: solid 3px black;
+}    */
+
+tr{
+    background-color: rgb(224, 224, 224); 
+}
+
+td{
+    padding: 20px;
+}
+
+.table2 th{
+    /* border: solid 3px purple; */
+    padding:10px 20px 10px;
+    font-size: 15px;
+    background-color: rgb(182, 15, 65);
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    
+}
+
+
+button{
+    background-color: rgb(243, 35, 35);
+    border-radius: 4px;
+    padding: 3px;
+    font-weight: bold;
+    color: rgba(247, 245, 244, 0.982);
+}
+.table-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
